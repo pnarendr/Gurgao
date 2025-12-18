@@ -1,88 +1,71 @@
-// TEMPLATE DATA: This file is meant to be overwritten by the Agent.
 export const itineraryData = {
     tripDetails: {
-        title: "Costa Rica: The Emerald Sanctuary",
-        subtitle: "Mist, Fire, and the Golden Pacific",
-        heroImage: "/images/hero.png" // Added for template structure
+        title: "Gurgaon: The Modern Enclave",
+        subtitle: "Imperial Echoes & Contemporary Sanctuaries",
+        heroImage: "/images/hero.png"
     },
     seoMetadata: {
-        title: "7-Day Luxury Costa Rica Itinerary (Volcanoes & Beach Sanctuary)",
-        description: "Experience the ultimate luxury in Costa Rica. A 7-day curated journey from volcanic heights to exclusive beach retreats. No detail overlooked.",
+        title: "5-Day Luxury Gurgaon & Delhi Itinerary (Private Driver & Chef-Led Tours)",
+        description: "Discover the duality of India's capital region. From the steel spires of Gurgaon to the ancient lanes of Old Delhi, curated for the discerning traveler.",
         ogImage: "/images/hero.png"
     },
     introContent: {
-        headline: "Pura Vida, Elevated",
-        body: "Enter a world where primal nature meets uncompromising comfort. From the historic grandeur of a coffee estate to the wild luxury of the Nicoya Peninsula and the modern design of Reserva Conchal, this is your private gateway to the wildest paradise on earth.",
+        headline: "The Millennium Sanctuary",
+        body: "Nestled within the vibrant heart of Gurgaon, Le Méridien serves as your private gateway to the complex tapestry of Northern India. Experience a journey where the precision of high-tech marvels meets the timeless soul of Mughal heritage, all from the comfort of your private, chauffeured enclave.",
         introImage: "/images/hero.png"
     },
     itineraryItems: [
         {
-            title: "Arrival: The Hacienda Estate",
-            location: "San José & Heredia",
-            description: "Arrive in style at **Hacienda Belen**. This 30-acre coffee plantation estate wraps you in colonial grandeur. Spend your afternoon by the palm-lined pools or enjoying a coffee cupping session right on the property.",
-            image: "/images/day1_hacienda.jpg",
-            link: "https://www.marriott.com/en-us/hotels/sjocr-costa-rica-marriott-hotel-hacienda-belen/overview/",
-            linkText: "View Hacienda Belen"
+            title: "The Millennium Horizon",
+            location: "Modern Gurgaon",
+            description: "Begin your journey with a curated exploration of Gurgaon's architectural evolution. Your private driver arrives at 9:00 AM for a visit to **Museo Camera**, the region's premier photography archive. Continue to **CyberHub** for a sophisticated lunch before a private walk through the **DLF Camellias** skyline, witnessing the pinnacle of modern Indian living. Return to the sanctuary of Le Méridien by 6:00 PM.",
+            image: "/images/day1_museo_camera.jpg",
+            link: "https://www.museocamera.org/",
+            linkText: "Explore Museo Camera"
         },
         {
-            title: "Volcanic Heights & Cloud Forests",
-            location: "Poás Volcano Day Trip",
-            description: "Using the Hacienda as your base, take a private transfer to **Poás Volcano National Park**. Peer into one of the world's largest active craters. Continue to the La Paz Waterfall Gardens to walk amidst clouds and hummingbirds before returning to the Hacienda for a steak dinner at La Isabela.",
-            image: "/images/day2_poas.jpg",
-            link: "https://www.sinac.go.cr/EN-US/ac/accvc/pnvp/Pages/default.aspx",
-            linkText: "Explore Poás Volcano"
+            title: "Imperial Vestiges",
+            location: "Lutyens' Delhi & Sunder Nursery",
+            description: "Step into the grand architectural vision of Edwin Lutyens. Witness the scale of **India Gate** and the **Rashtrapati Bhavan** from your private vehicle. Spend a contemplative afternoon within the UNESCO-restored **Humayun's Tomb** and the adjacent **Sunder Nursery**, a 16th-century heritage park that offers a tranquil escape from the city's pulse. Your driver ensures a seamless return for sunset.",
+            image: "/images/day2_lutyens_delhi.jpg",
+            link: "https://www.sundernursery.org/",
+            linkText: "Discover Sunder Nursery"
         },
         {
-            title: "The Wild Peninsula",
-            location: "Punta Islita, Nicoya",
-            description: "Depart for the wild Nicoya Peninsula. Check into **Hotel Punta Islita**. Nestled in a 'Blue Zone', this eco-luxury retreat offers unparalleled ocean views and a deep connection to nature. Watch scarlet macaws from the infinity pool.",
-            image: "/images/day3_islita.jpg",
-            link: "https://www.hoteluntaislita.com/",
-            linkText: "View Punta Islita"
+            title: "The Chef's Walled City",
+            location: "Old Delhi Culinary Expedition",
+            description: "Dive into the sensory heart of India. Accompanied by a private chef, navigate the hidden 'galis' of **Chandni Chowk** via rickshaw. This bespoke culinary tour bypasses the tourist paths to reveal centuries-old recipes and a masterclass in the **Khari Baoli** spice markets. A visceral, high-end immersion into the flavors that defined an empire.",
+            image: "/images/day3_old_delhi_chef.jpg",
+            link: "https://www.tripadvisor.in/Attractions-g304551-Activities-c36-t203-New_Delhi_National_Capital_Territory_of_Delhi.html",
+            linkText: "View Culinary Experiences"
         },
         {
-            title: "Nature's Playground",
-            location: "Punta Islita Adventure",
-            description: "A day of immersion. Join the hotel's complimentary eco-adventures: zip-lining through the canopy or a guided monkey quest. In the afternoon, engage with the local community art project or simply relax at the Aura Beach Club.",
-            image: "/images/day4_nature.jpg",
-            link: "https://www.hoteluntaislita.com/experiences",
-            linkText: "Discover Experiences"
+            title: "Transcendent Artistry",
+            location: "Akshardham & NGMA",
+            description: "A day dedicated to the creative and spiritual heights of the capital. Spend your morning at the **National Gallery of Modern Art (NGMA)**, housing India's most significant contemporary treasures. In the afternoon, marvel at the stone-carved intricacies of the **Akshardham Temple**, a testament to traditional Indian craftsmanship on a monumental scale. Return to the enclave by 6:00 PM for evening cocktails.",
+            image: "/images/day4_akshardham.jpg",
+            link: "https://akshardham.com/",
+            linkText: "Visit Akshardham"
         },
         {
-            title: "Modern Energy",
-            location: "Reserva Conchal",
-            description: "Private transfer north to **Reserva Conchal**. Check into your modern design suite overlooking the mangroves at the **W Costa Rica**. The design is bold, the energy is high, and the cocktail culture is world-class.",
-            image: "/images/day5_w_hotel.jpg",
-            link: "https://www.marriott.com/en-us/hotels/lirwi-w-costa-rica-reserva-conchal/overview/",
-            linkText: "View Reserva Conchal Resort"
-        },
-        {
-            title: "The Golden Coast",
-            location: "Playa Conchal",
-            description: "Spend the day on the white shells of Playa Conchal, one of the most beautiful beaches in the country. Enjoy the resort's 'Wet Deck' pool party or book a treatment at the AWAY Spa. Sunset brings a DJ set and fine dining at Latitud 10° North.",
-            image: "/images/day6_conchal.jpg",
-            link: "https://www.marriott.com/en-us/hotels/lirwi-w-costa-rica-reserva-conchal/dining/",
-            linkText: "Dining at The W"
-        },
-        {
-            title: "Departure",
-            location: "Liberia (LIR)",
-            description: "A final morning swim in the infinity pool before a short 1-hour transfer to Liberia International Airport (LIR). You leave refreshed, having experienced the best of Costa Rica's distinct landscapes.",
-            image: "/images/day7_departure.jpg",
-            link: "https://www.visitcostarica.com/",
-            linkText: "Visit Costa Rica"
+            title: "The Aravalli Stronghold",
+            location: "Neemrana Fort-Palace Excursion",
+            description: "Venture beyond the city limits into the rugged Aravalli Hills. Your private driver takes you to the 15th-century **Neemrana Fort-Palace**. Enjoy a leisurely royal lunch overlooking the vast plains, followed by a private tour of the tiered gardens and historic ramparts. A day of serene detachment and Rajput grandeur before your final evening at the hotel.",
+            image: "/images/day5_neemrana.jpg",
+            link: "https://www.neemranahotels.com/fort-palace-neemrana/",
+            linkText: "View Neemrana Fort"
         }
     ],
     footerContent: {
         title: "Why this itinerary works",
         items: [
-            "It balances history (Hacienda), eco-adventure (Islita), and modern luxury (Conchal).",
-            "Logistics are optimized: Arrive SJO, depart LIR, minimizing backtrack driving.",
-            "Each property offers a distinct vibe, from colonial charm to bold modernism."
+            "Optimized Logistics: Le Méridien Gurgaon provides a strategic base to access both New Delhi's monuments and the Aravalli hills.",
+            "Balanced Pacing: Alternates between high-energy culinary immersion and serene heritage parks.",
+            "Curated Privacy: Every day is anchored by a 9 AM - 6 PM private driver, ensuring seamless transitions and absolute comfort."
         ],
         tip: {
             label: "Elite Tip",
-            text: "At Hacienda Belen, request a room in the 'Colonial Wing' for the most authentic experience. At Punta Islita, the Casitas offer private plunge pools."
+            text: "For the Chef's tour in Old Delhi, request an early start to witness the spice markets at their most vibrant. At Le Méridien, the higher-floor suites offer the best views of the Gurgaon skyline."
         }
     }
 };
